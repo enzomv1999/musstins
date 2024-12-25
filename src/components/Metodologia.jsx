@@ -12,7 +12,6 @@ function Metodologia() {
       descricao: "Alocação de desenvolvedores profissionais de TI...",
       icon: "/images/icon-ti.png",
     },
-    // ... etc.
   ];
 
   return (

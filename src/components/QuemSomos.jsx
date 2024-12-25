@@ -13,7 +13,6 @@ function QuemSomos() {
           alt="Pessoas usando notebook"
           className="rounded-lg object-cover"
         />
-        {/* Você pode adicionar algum elemento decorativo (bolinhas, shape) via CSS ou outro <div> */}
       </div>
 
       {/* Texto */}

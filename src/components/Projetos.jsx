@@ -1,19 +1,17 @@
 import React from "react";
 
 function Projetos() {
-  // Exemplo de lista de projetos
   const projetos = [
     {
       nome: "Nome projeto",
       descricao: "UI/UX Design, SaaS",
-      imagem: "/images/projeto1.jpg",
+      imagem: "",
     },
     {
       nome: "Projeto 2",
       descricao: "Website, E-commerce",
-      imagem: "/images/projeto2.jpg",
+      imagem: "",
     },
-    // ... etc.
   ];
 
   return (
@@ -41,7 +39,6 @@ function Projetos() {
               <h3 className="text-xl font-semibold">{proj.nome}</h3>
               <p className="text-gray-300">{proj.descricao}</p>
             </div>
-            {/* Ícone de seta */}
             <div className="absolute top-4 right-4 bg-gray-800 rounded-full p-2 group-hover:bg-blue-600 transition">
               <svg
                 className="w-5 h-5 text-white"
