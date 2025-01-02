@@ -12,7 +12,8 @@ function Hero() {
           MUSSTINS <span className="block">TECH</span>
         </h1>
         <p className="text-gray-300 max-w-lg">
-          Moldando o futuro com tecnologia inovadora, design sofisticado e soluções flexíveis.
+          Moldando o futuro com tecnologia inovadora, design sofisticado e
+          soluções flexíveis.
         </p>
       </div>
 
