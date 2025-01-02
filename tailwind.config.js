@@ -12,22 +12,43 @@ module.exports = {
       colors: {
         backgroundDark: "#0B0C12",
         beigeLight: "#FEFDF8",
+        gray: "#9F9E9A",
       },
       fontSize: {
+        title: [
+          "4rem",
+          {
+            lineHeight: "4rem",
+            fontWeight: "700",
+          },
+        ],
+        bodyText: [
+          "1rem",
+          {
+            lineHeight: "1.25rem",
+            fontWeight: "400",
+          },
+        ],
         lg: [
-          "20px",
+          "1.25rem",
           {
             lineHeight: "2rem",
             fontWeight: "400",
           },
         ],
         md: [
-          "14px",
+          "0.875rem",
           {
             lineHeight: "1.75rem",
             fontWeight: "400",
           },
         ],
+      },
+      width: {
+        trace: "3.75rem",
+      },
+      height: {
+        trace: "0.06rem",
       },
     },
   },
