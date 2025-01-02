@@ -3,7 +3,7 @@ import Logo from "../images/logo.svg";
 
 function Header() {
   return (
-    <header className="flex items-center justify-between px-8 py-6 mx-32 text-beigeLight font-sans text-lg uppercase">
+    <header className="flex items-center justify-between text-beigeLight font-sans text-lg uppercase">
       <div>
         <nav className="space-x-16 tablet:text-md tracking-wider">
           <a href="#home">Home</a>
