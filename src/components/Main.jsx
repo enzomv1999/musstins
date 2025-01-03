@@ -14,7 +14,7 @@ function Main() {
   return (
     <section
       id="home"
-      className="text-beigeLight my-16 flex flex-col font-sans md:flex-row items-start md:items-center"
+      className="text-beigeLight px-8 pb-16 pt-6 mx-52 flex flex-col font-sans md:flex-row items-start md:items-center"
     >
       <header className="w-full md:w-1/2 mb-8 mt-48 md:mb-0">
         <aside>
@@ -44,7 +44,7 @@ function Main() {
             </div>
           </h1>
         </aside>
-        <p className="text-gray max-w-lg">
+        <p className="text-gray text-bodyText max-w-lg">
           <Typewriter
             onInit={(typewriter) => {
               typewriter

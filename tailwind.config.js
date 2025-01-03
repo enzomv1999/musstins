@@ -12,6 +12,7 @@ module.exports = {
       },
       colors: {
         backgroundDark: "#0B0C12",
+        backgroundServices: "#11131B",
         beigeLight: "#FEFDF8",
         gray: "#9F9E9A",
         lightBlue: "#5B6BFA",
@@ -31,10 +32,24 @@ module.exports = {
             fontWeight: "700",
           },
         ],
-        bodyText: [
-          "1rem",
+        titlesMd: [
+          "1.25rem",
           {
             lineHeight: "1.25rem",
+            fontWeight: "700",
+          },
+        ],
+        bodyLg: [
+          "1rem",
+          {
+            lineHeight: "1.5rem",
+            fontWeight: "400",
+          },
+        ],
+        bodySm: [
+          ".875rem",
+          {
+            lineHeight: "1.3rem",
             fontWeight: "400",
           },
         ],
