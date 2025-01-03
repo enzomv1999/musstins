@@ -28,7 +28,7 @@ function About() {
       <div className="flex flex-col gap-2">
         <TitleDecorator text="Sobre nós" />
         <h2 className="text-titles mb-4">Quem nós somos</h2>
-        <p className="text-gray-300 mb-4 w-[26rem] text-gray">
+        <p className="text-gray text-bodyText mb-4 w-[26rem]">
           Unimos inovação e sofisticação para criar soluções tecnológicas de
           alto desempenho. Somos movidos pela paixão de transformar ideias em
           realidades, proporcionando crescimento e conhecimento para clientes
