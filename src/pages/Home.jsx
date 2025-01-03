@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Main from "../components/Main";
-import QuemSomos from "../components/QuemSomos";
+import About from "../components/About";
 import Projetos from "../components/Projetos";
 import Metodologia from "../components/Metodologia";
 import Rodape from "../components/Rodape";
@@ -12,7 +12,7 @@ function Home() {
     <div className="px-8 pb-16 pt-6 mx-52">
       <Header />
       <Main />
-      <QuemSomos />
+      <About />
       <Projetos />
       <Metodologia />
       <Contato />

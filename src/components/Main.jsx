@@ -18,7 +18,7 @@ function Main() {
     >
       <header className="w-full md:w-1/2 mb-8 mt-48 md:mb-0">
         <aside>
-          <h1 className="text-title mb-6">
+          <h1 className="text-mainTitle mb-6">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter.typeString("MUSSTINS").start();
