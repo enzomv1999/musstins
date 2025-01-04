@@ -4,7 +4,7 @@ import Main from "../components/Main";
 import About from "../components/About";
 import Projetos from "../components/Projetos";
 import Services from "../components/Services";
-import Rodape from "../components/Rodape";
+import Footer from "../components/Footer";
 import Contato from "../components/Contato";
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
       {/* <Projetos /> */}
       <Services />
       <Contato />
-      <Rodape />
+      <Footer />
     </>
   );
 }
