@@ -32,6 +32,13 @@ module.exports = {
             fontWeight: "700",
           },
         ],
+        titlesLg: [
+          "1.5rem",
+          {
+            lineHeight: "1.6rem",
+            fontWeight: "500",
+          },
+        ],
         titlesMd: [
           "1.25rem",
           {
