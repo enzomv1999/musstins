@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        mobile: { max: "390px" },
         tablet: { max: "768px" },
+        desktop: { max: "1440px" },
       },
       fontFamily: {
         sans: ["Metropolis", "sans-serif"],
