@@ -9,7 +9,7 @@ import Contato from "../components/Contato";
 
 function Home() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Header />
       <Main />
       <About />
@@ -17,7 +17,7 @@ function Home() {
       <Services />
       <Contato />
       <Footer />
-    </>
+    </div>
   );
 }
 
