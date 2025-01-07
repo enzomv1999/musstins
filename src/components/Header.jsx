@@ -20,13 +20,11 @@ function Header() {
 
   return (
     <header className="flex items-center justify-between text-beigeLight px-8 pb-16 pt-6 mx-52 font-sans text-lg uppercase desktop:mx-10 tablet:mx-5 tablet:px-2">
-      {/* Navegação esquerda */}
       <div className="flex space-x-16 tablet:text-bodyLg tracking-wider tablet:space-x-8 mobile:hidden">
         <a href="#home">Home</a>
         <a href="#sobre">Sobre</a>
       </div>
 
-      {/* Logo centralizada */}
       <div>
         <a href="./">
           <img
@@ -37,14 +35,11 @@ function Header() {
         </a>
       </div>
 
-      {/* Navegação direita */}
       <div className="flex space-x-16 tablet:text-bodyLg tracking-wider tablet:space-x-8 mobile:hidden">
         <a href="#projetos">Projetos</a>
         <a href="#servicos">Serviços</a>
       </div>
 
-      {/* ------------------------------------ */}
-      {/* Ícone do menu hambúrguer para mobile */}
       <button
         onClick={toggleMenu}
         className={`absolute right-8 ${isMobile ? "block" : "hidden"} `}
@@ -52,7 +47,6 @@ function Header() {
         {isOpen ? <X size={28} /> : <Menu size={28} />}
       </button>
 
-      {/* Menu lateral para dispositivos menores */}
       <div
         className={`fixed top-0 right-0 h-full w-full bg-backgroundServices transform ${
           isOpen ? "translate-x-0" : "translate-x-full"
