@@ -99,6 +99,7 @@ module.exports = {
       },
       width: {
         trace: "3.75rem",
+        shortTrace: "1.875rem",
       },
       height: {
         trace: "0.06rem",

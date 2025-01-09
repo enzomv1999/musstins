@@ -30,7 +30,7 @@ function Header() {
           <img
             src={`${isMobile ? fullLogo : Logo}`}
             alt="Logo"
-            className="mobile:w-28"
+            className="mobile:w-40"
           />
         </a>
       </div>
@@ -48,7 +48,7 @@ function Header() {
       </button>
 
       <div
-        className={`fixed top-0 right-0 h-full w-full bg-backgroundServices transform ${
+        className={`fixed top-0 z-20 right-0 h-full w-full bg-backgroundServices transform ${
           isOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300`}
       >

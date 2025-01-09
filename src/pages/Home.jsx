@@ -12,11 +12,11 @@ function Home() {
     <div className="overflow-x-hidden">
       <Header />
       <Main />
-      <About />
+      {/* <About /> */}
       {/* <Projetos /> */}
-      <Services />
+      {/* <Services />
       <Contato />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
