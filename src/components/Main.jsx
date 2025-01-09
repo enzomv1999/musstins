@@ -7,18 +7,20 @@ import secondCard from "../images/card-2.png";
 import thirdCard from "../images/card-3.png";
 
 const Trace = () => {
-  return <span className="block bg-beigeLight w-trace h-trace"></span>;
+  return (
+    <span className="block bg-beigeLight w-trace h-trace mobile:w-shortTrace"></span>
+  );
 };
 
 function Main() {
   return (
     <section
       id="home"
-      className="text-beigeLight px-8 pb-16 pt-6 mx-52 flex flex-col font-sans md:flex-row items-start md:items-center"
+      className="text-beigeLight px-8 pb-16 pt-6 mx-52 flex flex-col font-sans items-start tablet:px-4 tablet:mx-8 tablet:pt-0"
     >
-      <header className="w-full md:w-1/2 mb-8 mt-48 md:mb-0">
+      <header className="w-full mb-8 mt-48 tablet:mt-5">
         <aside>
-          <h1 className="text-mainTitle mb-6">
+          <h1 className="text-mainTitle mb-6 mobile:text-5xl mobile:">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter.typeString("MUSSTINS").start();
@@ -44,7 +46,7 @@ function Main() {
             </div>
           </h1>
         </aside>
-        <p className="text-gray text-bodyText max-w-lg">
+        <p className="text-gray text-bodyText max-w-lg mobile:text-bodySm">
           <Typewriter
             onInit={(typewriter) => {
               typewriter
@@ -62,7 +64,7 @@ function Main() {
         </p>
       </header>
 
-      <div className="w-full flex justify-end items-start gap-6">
+      <div className="w-full flex justify-end items-start gap-6 tablet:hidden">
         <Cards
           src={firstCard}
           alt="Card com design inovador de vidraças e sem saturação"
