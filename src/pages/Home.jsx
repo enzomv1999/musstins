@@ -9,14 +9,14 @@ import Contato from "../components/Contato";
 
 function Home() {
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-hidden">
       <Header />
       <Main />
-      {/* <About /> */}
+      <About />
       {/* <Projetos /> */}
-      {/* <Services />
+      <Services />
       <Contato />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
