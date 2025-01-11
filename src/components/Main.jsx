@@ -16,11 +16,11 @@ function Main() {
   return (
     <section
       id="home"
-      className="text-beigeLight px-8 pb-16 pt-6 mx-52 flex flex-col font-sans items-start tablet:px-4 tablet:mx-8 tablet:pt-0"
+      className="text-beigeLight px-8 pb-16 pt-6 mx-52 flex flex-row font-sans items-start tablet:px-0 tablet:pt-0 tablet:mx-8 mobile:p-8"
     >
       <header className="w-full mb-8 mt-48 tablet:mt-5">
         <aside>
-          <h1 className="text-mainTitle mb-6 mobile:text-5xl mobile:">
+          <h1 className="text-mainTitle mb-6 mobile:text-5xl">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter.typeString("MUSSTINS").start();
@@ -51,7 +51,7 @@ function Main() {
             onInit={(typewriter) => {
               typewriter
                 .typeString(
-                  `Moldando o futuro com tecnologia inovadora, design <br /> sofisticado
+                  `Moldando o futuro com tecnologia inovadora, design sofisticado
                   e soluções flexíveis.`
                 )
                 .start();

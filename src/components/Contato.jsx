@@ -5,15 +5,15 @@ import logo from "../images/contactLogo.svg";
 
 function Contato() {
   return (
-    <section className="relative mx-4 mt-6 rounded-3xl">
+    <section className="relative mx-4 mt-6 rounded-3xl mobile:mt-0">
       <div
-        className="absolute inset-0 rounded-3xl bg-cover bg-no-repeat bg-center opacity-100"
+        className="absolute inset-0 rounded-3xl bg-cover bg-no-repeat bg-center opacity-100 mobile:hidden"
         style={{
           backgroundImage: `url(${background})`,
         }}
       ></div>
 
-      <div className="relative flex items-center justify-end right-56 top-24 text-beigeLight min-h-[400px] px-6">
+      <div className="relative flex items-center justify-end right-56 top-24 text-beigeLight min-h-[400px] px-6 mobile:static tablet:justify-center tablet:right-0 mobile:px-3">
         <div className="flex flex-col gap-10 rounded-3xl bg-backgroundServices p-8 max-w-lg text-left">
           <div className="mb-4">
             <span className="text-2xl font-bold">
@@ -22,7 +22,7 @@ function Contato() {
           </div>
 
           <div className="flex flex-col gap-7">
-            <h3 className="text-titlesLg font-serif">
+            <h3 className="text-titlesLg font-serif mobile:text-titlesMd mobile:w-[16rem]">
               Pronto para transformar suas ideias em realidade? Vamos criar algo
               incrível <br /> juntos.
             </h3>

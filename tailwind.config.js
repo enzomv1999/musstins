@@ -89,6 +89,13 @@ module.exports = {
             fontWeight: "400",
           },
         ],
+        xxs: [
+          "0.625rem",
+          {
+            lineHeight: "0.625rem",
+            fontWeight: "400",
+          },
+        ],
         decorator: [
           "0.75rem",
           {
